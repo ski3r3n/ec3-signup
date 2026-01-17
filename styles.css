@@ -4,10 +4,11 @@ h1 {
 }
 body {
   background-color: #000000;
-  font-family: "Be Vietnam Pro", sans-serif;
-  height: 100vh;
   margin: 0;
   padding: 0;
+}
+.container {
+  font-family: "Be Vietnam Pro", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,20 +17,27 @@ body {
 }
 img {
   width: 200px;
+  margin-top: 50px;
 }
 .info {
   padding: 30px;
   border-radius: 8px;
   background-color: #1a1a1a;
   margin: 20px;
-  width: 35vw;
+  width: 40vw;
+  height: fit-content;
 }
 ul {
   padding-left: 17px;
+  font-size: 15px;
+  margin: 0;
 }
 .outer {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100vw;
 }
 
 a {
@@ -54,4 +62,8 @@ button {
   font-size: 15px;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.copied-msg-container {
+  list-style-type: none;
 }
